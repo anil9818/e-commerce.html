@@ -1,0 +1,332 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: -webkit-pictograph;}
+.header{height: 80px;}
+.logo{margin: 18px 177px; float: left;}
+.nav{float: right;}
+.nav ul {
+    margin-top: 27px;
+    margin-right: 30px;
+}
+a{text-decoration: none; color: black;}
+.nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 18px 23px;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-right: 7px;
+    font-family: -webkit-pictograph;
+    cursor: pointer;
+}
+.nav ul li img {
+    position: relative;
+    top: -32px;
+    left: 417px;
+    cursor: pointer;
+}
+.nav i{display: none;}
+
+.fl{float: left;}
+.fr{float: right;}
+.new{margin-left: 2%;}
+.product-2{margin: auto; width: 70%; height: 50px; margin-top: 67px;}
+.all-prod, .default{width: 20%; height: 50px; font-weight: bold;
+    font-size: 20px;}
+    select{cursor: pointer; font-size: 17px; font-weight: bold;}
+
+
+
+
+    .some-img-2{width: 80%; height: 280px; margin: auto; margin-top: 51px;}
+.s-img-2{width: 22.50%; height: 240px; transition: transform 0.5s;}
+.s-img-2:hover{transform: translateY(-15px); cursor: pointer; color: tomato;}
+h3.txt-3 {
+    margin-top: 7px;
+    color: grey;
+    font-size: 16px;
+}
+h4.icn {
+    font-size: 24px;
+    color: orangered;
+}
+
+span.crncy {
+    position: relative;
+    top: -23px;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.pages{margin:auto; width: 80%; height: 50px;}
+.pages ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 8px;
+    padding: 7px 16px;
+    font-family: cursive;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.pages ul li:hover{transform: translateY(10px); border: 1px solid tomato; color: tomato;}
+.pages ul{float: left;}
+
+
+
+.footer{height: 200px; background-color: black; padding: 10px 20px;}
+.footer-links{margin: auto; width: 80%; height: 150px; border-bottom: 1px solid white;}
+.copyright{margin: auto; text-align: center; color: white; font-size: 17px;margin-top: 8px;}
+.s-1{width: 31%; height: 145px; margin-top: 5px; color: white;} 
+span.download2 {
+    font-size: 14px;
+    color: grey;
+    line-height: 40px;
+}
+span.download {
+    text-transform: capitalize;
+    line-height: 46px;
+}
+.txt-3 {
+    text-align: center;
+    font-size: 13px;
+    margin-top: -29px;
+    text-transform: capitalize;
+    margin-left: -45px;
+}
+.logo-2 img {
+    width: 49%;
+    height: 51px;
+    margin-left: 62px;
+    margin-top: 14px;
+}
+.coupons {
+    color: grey;
+    font-size: 14px;
+}
+.useful {
+    margin-top: 15px;
+}
+.icon1{display: none;}
+.useful:hover, .follow:hover, .coupons:hover, .facebook:hover, .s-1:hover,
+ .nav ul li:hover{color: orangered; cursor: pointer;}
+ .prom img:hover{cursor: pointer; filter: grayscale(10);}
+.footer-mob{display: none;}
+
+
+.footer-mob{height: 576px; background-color: black;}
+.down{font-size: 15px; padding: 20px 10px; color: white; text-align: center;}
+.down-2{font-size: 13px; color: grey; text-align: center; margin-top: -32px;}
+.a img {
+    width: 33%;
+    margin-left: 129px;
+}
+.app img {
+    margin-top: -17px;
+}
+.log img {
+    width: 42%;
+    margin-left: 110px;
+}
+.foll {
+    margin-left: 93px;
+}
+.usef {
+    color: white;
+    margin-top: 16px;
+    margin-left: 22px;
+    font-size: 19px;
+    line-height: 19px;
+    float: left;
+}
+.our {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 22px;
+    width: 70%;
+    margin-left: 56px;
+}
+.copy{margin:auto; width: 80%; height: 5px; border-bottom: 1px solid white; text-align: center; font-size: 16px; 
+margin-top: 159px; color: white; padding-top: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+@media (max-width:1050px){
+    .nav ul {
+        margin-top: -59px;}
+       
+    }
+    @media (max-width:1020px){
+        .nav ul {
+            position: relative;
+            top: -80px;
+           
+        }
+}
+@media (max-width:1023px){
+    .nav ul li{font-size: 13px;}
+    .nav ul li img{left: 355px;}
+    .nav ul{margin-right: 74px; margin-top: 26px;}
+    .logo img {
+        width: 80%;
+        height: 41px;
+        position: relative;
+        left: -104px;
+    }
+}
+
+@media (max-width:768px){
+    .all-prod, select{font-size: 15px;}
+    select{position: relative;
+        top: -29px;
+        left: -55px;}
+        .pages ul{ margin-left: 35px;}
+
+        .pages ul li{ margin-left: 5px;padding: 2px 7px;}
+            
+
+
+        .s-img-2 {
+            width: 40.5%;
+            height: 240px;
+            transition: transform 0.5s;
+            margin-left: 41px;
+            margin-bottom: 207px;
+        }
+        .s-1{margin-top: 0px;}
+        .footer{position: absolute;
+            top: 520%;}
+        span.download{line-height: 46px;}
+        span.download2 {
+            font-size: 12px;
+            
+            line-height: 26px;
+        }
+        .txt-3 {
+            text-align: center;
+            font-size: 14px;
+            margin-top: -45px;
+            text-transform: capitalize;
+            margin-left: -15px;
+        }
+        .coupons{margin-left: 20px;}
+       
+        
+               
+}
+
+
+
+
+
+
+
+@media(max-width:385px){
+  .nav ul li{
+      display: none;
+      
+  }
+  .nav ul{   
+     background-color: white;
+    position: relative;
+    top: -50px;
+    left: 53px;
+    box-shadow: 0px 1px 10px 5px silver;
+     z-index:10;
+     padding: 2px 10px;
+     border-radius: 10px;}
+
+  .nav ul li img {
+    left: 4px;
+    top: 1px;
+    width: 81%;
+}
+.icn{font-size: 16px; margin-left: 20px;}
+.crncy{left: 22px;}
+.nav i {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 28px;
+    font-size: 20px;
+}
+  .logo img {
+    width: 391%;
+    height: 36px;
+    position: relative;
+    left: -127px;
+}
+select{position: absolute;
+    top: 154px;
+    left: 180px;
+}
+.s-img-2{width: 94.5%;margin-left: 8px; margin-bottom: 275px;}
+.some-img-2{margin-top: 161px;}
+.pages ul{margin-left: 0;}
+.footer{display: none;}
+.footer-mob {
+    display: block;
+    position: absolute;
+    top: 1188%;
+}
+}

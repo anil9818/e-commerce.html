@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce 4th page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -webkit-pictograph;
+        }
+
+        .header {
+            height: 80px;
+        }
+
+        .logo {
+            margin: 18px 177px;
+            float: left;
+        }
+
+        .nav {
+            float: right;
+        }
+
+        .nav ul {
+            margin-top: 27px;
+            margin-right: 30px;
+        }
+
+        .nav ul li {
+            list-style: none;
+            display: inline;
+            margin: 18px 23px;
+            text-transform: capitalize;
+            font-size: 16px;
+            margin-right: 7px;
+            font-family: -webkit-pictograph;
+            cursor: pointer;
+        }
+
+        .nav ul li img {
+            position: relative;
+            top: -32px;
+            left: 417px;
+            cursor: pointer;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .new {
+            margin-left: 48%
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        .product {
+            margin: auto;
+            width: 70%;
+            height: 45px;
+            background-color: orangered;
+            color: white;
+            margin-top: 40px;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 9px 20px;
+        }
+
+        .list-cont {
+            margin: auto;
+            width: 70%;
+            height: 500px;
+        }
+
+        .s2 {
+            width: 45%;
+            height: 500px;
+        }
+
+        .img-1 {
+            width: 20%;
+            height: 70px;
+            float: left;
+            margin-bottom: 2%;
+            margin-top: 10px;
+            clear: both;
+        }
+
+        .txt-1 {
+            width: 40%;
+            height: 70px;
+            float: left;
+            margin-left: 38%;
+            margin-bottom: 2%;
+            margin-top: 10px;
+            clear: both;
+            position: relative;
+            top: -88px;
+        }
+
+        /* .img-1 img{width: 10%; height: 70px;} */
+        span.red {
+            color: #363434;
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 28px;
+        }
+
+        span.price {
+            line-height: 46px;
+            font-family: system-ui;
+            font-size: 18px;
+            font-weight: bold;
+            color: tomato;
+        }
+
+        span.remove {
+            font-size: 14px;
+            color: lightseagreen;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .remove:hover{text-decoration: underline;}
+        .much{float: left;}
+        .price{float: right;}
+        .much input {
+    padding: 3px 2px;
+    font-size: 16px;
+    font-family: system-ui;
+    cursor: pointer;
+}
+.price {
+    float: right;
+    font-size: 20px;
+    font-family: system-ui;
+}
+.m-a {
+    position: relative;
+    top: 16px;
+}
+.m-b {
+    position: relative;
+    top: 157px;
+}
+.m-c {
+    position: relative;
+    top: 285px;
+}
+.list-fr {
+    border-bottom: 2px solid orangered;
+}   
+#fam {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.explore:hover{background-color: orange; cursor: pointer;}
+button.explore {
+    padding: 10px 16px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-right: 210px;
+    word-spacing: 2px;
+    font-weight: bold;
+    margin-top: -69px;
+}
+.s3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.s-3 {
+    font-family: cursive;
+    color: tomato;
+}
+.subtotal2 {
+    width: 31%;
+    height: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 207px;
+}
+ul li{list-style: none;}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo"><img src="images/logo.png" width="100%" height="50px"></div>
+        <div class="nav">
+            <i class="fas fa-th icon1"></i>
+            <ul>
+                <a href="e-commerce.html" style="color:black; text-decoration: none;"><li>home</li></a>
+                <li><a href="e-com-2.html" style="color:black; text-decoration: none;">products</a></li>
+                <li>about</li>
+                <li>contact</li>
+                <li><a href="ecommerce-5(login).html" style="color: black; text-decoration: none;"> account</a></li>
+                <li><img src="images/cart.png" width="10%" height="40px"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="product">
+        <span class="product1 fl">Product</span>
+        <span class="quantity new fl">Quantity</span>
+        <span class="subtotal fr">Subtotal</span>
+        <div class="clr"></div>
+    </div>
+
+
+    <div class="list-cont">
+
+        <div class="list-fl s2 fl">
+            <div class="img-1 image-1"><img src="images/product-1.jpg" width="160%" height="145px"></div>
+            <div class="txt-1 text-1"><span class="red">Red Printed T-Shirt</span> <br> <span class="price">Price: 275.99
+                    &#x20B9; </span> <br><span class="remove rem-1">Remove</span>
+            </div>
+
+
+
+
+            <div class="img-1 image-2"><img src="images/product-2.jpg" width="160%" height="145px"></div>
+            <div class="txt-1 text-2"><span class="red">HRX Sports Shoes</span> <br> <span class="price">Price: 395.90
+                    &#x20B9; </span> <br><span class="remove rem-2">Remove</span>
+            </div>
+
+
+
+
+            <div class="img-1 image-3"><img src="images/product-3.jpg" width="160%" height="145px"></div>
+            <div class="txt-1 text-3"><span class="red">HRX Gray Trackpants</span> <br> <span class="price">Price: 198.59
+                    &#x20B9; </span> <br><span class="remove rem-3">Remove</span>
+
+            </div>
+
+
+
+           
+        </div>
+        <div class="list-fr s2 fr">
+        <div class="much m-a much-1"><input type="number" min="1" max="10" value="1" id="input1"></div>
+        <div class="price m-a price-1">275.99 &#x20B9;</div><br><br>
+        <div class="clr"></div>
+
+        <div class="much m-b much-2"><input type="number" min="1" max="10" value="1" id="input2"></div>
+        <div class="price m-b price-2">395.90 &#x20B9;</div><br><br>
+        <div class="clr"></div>
+
+
+        <div class="much m-c much-3"><input type="number" min="1" max="10" value="1" id="input3"></div>
+        <div class="price m-c price-3">198.59 &#x20B9;</div><br>
+        <div class="clr"></div>
+
+
+
+        </div>
+        </div>
+
+        <div class="subtotal2">
+            <ul class="s3 fl">
+                <li>Subtotal</li><br>
+                <li>Tax</li><br>
+                <li>Total</li><br>
+            </ul>
+            <ul class="s-3 fr">
+                <li>870.48 &#x20B9;</li><br>
+                <li>25.52 &#x20B9;</li><br>
+                <li id="fam">896.00 &#x20B9;</li><br>
+            </ul>
+        </div>
+          <div class="clr"></div>
+        <button class="explore fr">Proceed to checkout &#8594;</button>
+
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="e-commerce.js"></script>
+        <script>
+
+    
+         
+        </script>
+</body>
+
+</html>
